@@ -15,6 +15,12 @@ hasSpecialChar(password){
         }
     }
     return false;
-    }
+}
+
+hasNumber(password){
+    return false;
+}
+    
+
 
 };

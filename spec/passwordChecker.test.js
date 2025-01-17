@@ -26,6 +26,10 @@ describe("Checking if password has 8 Char", function(){
         const result = Main.hasSpecialChar("!");
         expect(result).toBe(true);
     });
+    it("hasNumber: when has 0 number", function(){
+        const result = Main.hasNumber("");
+        expect(result).toBe(false);
+    });
 
 
 
