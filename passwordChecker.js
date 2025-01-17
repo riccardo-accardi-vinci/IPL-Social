@@ -26,7 +26,7 @@ hasNumber(password){
     }
     return false;
 }
-    
-
-
+noIpl(password){
+    return true;
+}
 };
