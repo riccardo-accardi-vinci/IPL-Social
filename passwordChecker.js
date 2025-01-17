@@ -7,7 +7,8 @@ has8Char(password){
     return true;
 }
 
-
+hasSpecialChar(password){
+    return false;
 
 };
-
+}
