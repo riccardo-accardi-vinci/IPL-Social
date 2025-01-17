@@ -38,6 +38,10 @@ describe("Checking if password has 8 Char", function(){
         const result = Main.noIpl("");
         expect(result).toBe(true);
     });
+    it("noIpl: when has ipl", function(){
+        const result = Main.noIpl("ipl");
+        expect(result).toBe(false);
+    });
 
 
 

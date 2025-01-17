@@ -27,6 +27,9 @@ hasNumber(password){
     return false;
 }
 noIpl(password){
+    if (password.toLowerCase().includes("ipl")){
+        return false;
+    }
     return true;
 }
 };
