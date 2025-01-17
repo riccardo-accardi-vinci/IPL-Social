@@ -7,6 +7,11 @@ describe("Checking if password has 8 Char", function(){
         const result = Main.has8char("");
         expect(result).toBe(false);
     });
+
+    it("has8char : when has 1 char", function(){
+        const result = Main.has8char("");
+        expect(result).toBe(false);
+    });
 });
 
 

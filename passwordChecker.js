@@ -1,7 +1,10 @@
 export class Main{
 
 has8Char(password){
-    return false;
+    if (password<8){
+        return false;
+    }
+    return true;
 }
 
 
