@@ -18,6 +18,12 @@ hasSpecialChar(password){
 }
 
 hasNumber(password){
+   const numbers = /[0-9]/;
+    for (let i = 0; i < password.length; i++) {
+        if (numbers.includes(password[i])) {
+            return true;
+        }
+    }
     return false;
 }
     
