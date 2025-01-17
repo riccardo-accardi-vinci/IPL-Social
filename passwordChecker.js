@@ -8,7 +8,13 @@ has8Char(password){
 }
 
 hasSpecialChar(password){
+    const specialChars = /[!@#$%^&*(),.?":{}|<>]/;
+    for (let i = 0; i < password.length; i++) {
+        if (specialChars.includes(password[i])) {
+            return true;
+        }
+    }
     return false;
+    }
 
 };
-}
