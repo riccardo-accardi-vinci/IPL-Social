@@ -33,6 +33,9 @@ noIpl(password){
     return true;
 }
 passwordChecker(password){
+    if (this.has8Char(password) && this.hasSpecialChar(password) && this.hasNumber(password) && this.noIpl(password)){
+        return true;
+    }
     return false;
 }
 };

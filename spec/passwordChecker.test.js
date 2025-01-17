@@ -46,6 +46,10 @@ describe("Checking if password has 8 Char", function(){
         const result = Main.passwordChecker("abvcdfipl");
         expect(result).toBe(false);
     });
+    it("passwordChecker : when password is good", function(){
+        const result = Main.passwordChecker("abvcdf1!");
+        expect(result).toBe(true);
+    });
     
 
 
