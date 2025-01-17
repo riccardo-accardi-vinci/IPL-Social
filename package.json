@@ -1,0 +1,15 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "Accardi Riccardo riccardo.accardi@student.vinci.be",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
